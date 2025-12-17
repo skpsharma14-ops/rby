@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="icon" href="./assets/img/Logo for Crash Zone Game.svg">
+<link rel="canonical" href="https://www.storysprouts.example/" />
+<title>Story Sprouts — Fun & Free Story Books for Kids!</title>
+<meta name="description" content="Welcome to Story Sprouts! Read fun, free, and safe story books right in your browser. No downloads needed. Perfect for kids of all ages. Start your adventure!" />
+<meta name="theme-color" content="#3B82F6">
+<meta property="og:site_name" content="Story Sprouts">
+<meta property="og:title" content="Story Sprouts — Fun & Free Story Books for Kids!">
+<meta property="og:description" content="Read fun, free, and safe story books right in your browser. No downloads needed. Perfect for kids of all ages. Start your adventure!">
+<meta property="og:type" content="website">
+<meta property="og:image" content="./assets/img/Logo for Crash Zone Game.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Story Sprouts — Fun & Free Story Books for Kids!">
+<meta name="twitter:description" content="Fun, free, and safe story books for kids. Read instantly in your browser!">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Story Sprouts",
+  "url": "https://www.storysprouts.example/",
+  "description": "Read fun and free story books for kids. Safe for all ages, with no downloads required.",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.storysprouts.example/?s={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+</head>
+<body>
+<nav class="nav" aria-label="Main navigation">
+  <div class="container nav-inner">
+    <a class="logo" href="index.html" aria-label="Home"><img src="assets/img/Logo for Crash Zone Game.svg" alt="Story Sprouts icon"><span>Story Sprouts</span></a>
+    <div class="menu" data-nav-menu>
+      <a href="index.html" class="active">Home</a>
+      <a href="game.html">Read Now</a>
+      <a href="leaderboard.html">Top Readers</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
+      <a href="faq.html">FAQ</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </div>
+    <div class="right"><button class="btn ghost" data-nav-toggle aria-expanded="false" aria-controls="nav-menu">Menu</button><a class="btn" href="game.html">Read Now</a></div>
+  </div>
+</nav>
+
+<header class="hero" role="banner">
+  <div class="container grid" style="align-items:center;gap:28px">
+    <main>
+      <div class="badge">Read • Learn • Grow</div>
+      <h1>Wonderful Story Books for Kids!</h1>
+      <p style="max-width:60ch;opacity:0.9">Once upon a time... Dive into fun and exciting adventures right from your computer or tablet. No downloads, no waiting. Just click and read for free!</p>
+
+      <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:16px">
+        <a class="btn" href="game.html" aria-label="Start Reading">Open a Book!</a>
+        <a class="btn ghost" href="about.html" aria-label="Learn more about Story Sprouts">Learn More</a>
+      </div>
+
+      <ul class="kudos" style="display:flex;gap:10px;flex-wrap:wrap;margin-top:12px">
+        <li class="pill">📚 Magical Stories</li>
+        <li class="pill">🎨 Beautiful Illustrations</li>
+        <li class="pill">🌍 Read Anywhere</li>
+      </ul>
+
+      <div style="margin-top:18px;display:flex;gap:12px;flex-wrap:wrap">
+        <form id="newsletter" action="/.netlify/functions/subscribe" method="post" style="display:flex;gap:8px;align-items:center" aria-label="Join newsletter">
+          <label for="newsletter-email" class="sr-only">Email address</label>
+          <input id="newsletter-email" name="email" type="email" placeholder="your@email.com" required aria-required="true">
+          <button class="btn" type="submit">Get Updates</button>
+        </form>
+        <div class="trust" style="display:flex;gap:8px;align-items:center">
+          <img src="assets/img/trust-50k.svg" alt="50k+ readers" width="88" height="24" loading="lazy">
+          <img src="assets/img/trust-2m.svg" alt="2M stories read" width="88" height="24" loading="lazy">
+        </div>
+      </div>
+    </main>
+
+    <aside class="card" aria-label="Features and stats" style="min-width:300px">
+      <div class="grid-2">
+        <div class="card">
+          <div class="stat"><div class="n">100+</div><div class="t">Free Books</div></div>
+        </div>
+        <div class="card">
+          <div class="stat"><div class="n">Easy</div><div class="t">Simple to Read</div></div>
+        </div>
+      </div>
+      <div style="margin-top:12px">
+        <img src="assets/img/hero-screenshot.jpg" alt="Illustration from a story book" style="width:100%;border-radius:8px" loading="lazy">
+      </div>
+    </aside>
+  </div>
+</header>
+
+<section class="section container" aria-labelledby="why-heading">
+  <h2 id="why-heading">Why Kids Love Story Sprouts!</h2>
+  <p style="max-width:720px;margin:0 auto 32px;opacity:0.85">We made our books to be super fun and easy to read for everyone. Here’s why Story Sprouts is the best place for story time!</p>
+
+  <div class="grid-2" style="margin-bottom:48px">
+    <div class="card">
+      <h3>Instant Access</h3>
+      <p>Just click and read! Our books work right in your browser on a computer, tablet, or phone. No waiting for downloads!</p>
+    </div>
+    <div class="card">
+      <h3>Fun for Everyone</h3>
+      <p>Our stories are designed for all reading levels. Enjoy magical tales with simple navigation and beautiful pictures!</p>
+    </div>
+    <div class="card">
+      <h3>Track Your Reading</h3>
+      <p>Keep track of the books you've read and see your progress! Challenge yourself to read a new story every day.</p>
+    </div>
+    <div class="card">
+      <h3>Always Free to Play</h3>
+      <p>All our books are completely free. You can read as much as you want without ever having to pay.</p>
+    </div>
+  </div>
+
+  <h2 style="margin-top:64px">Key Features</h2>
+  <div class="grid-3" style="gap:18px;margin-top:18px">
+    <div class="card">
+      <h4>Beautiful Illustrations</h4>
+      <p>Enjoy bright and happy visuals that make every story exciting and fun to look at.</p>
+    </div>
+    <div class="card">
+      <h4>Discover New Stories</h4>
+      <p>The more you read, the more new worlds you can explore. Find your favorite adventure!</p>
+    </div>
+    <div class="card">
+      <h4>Safe for Kids</h4>
+      <p>We care about your safety. Our games are kid-friendly and we don't collect personal info.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section container" aria-labelledby="social-proof">
+  <h2 id="social-proof">What Parents Are Saying</h2>
+  <div style="display:flex;gap:16px;flex-wrap:wrap;margin-top:12px;justify-content:center">
+    <div class="card" style="max-width:420px">
+      <blockquote>
+        "My kids love these stories! They are easy to read and I feel good knowing the site is safe and free."
+      </blockquote>
+      <div class="meta">— Sarah P., Parent</div>
+    </div>
+    <div class="card" style="max-width:420px">
+      <blockquote>
+        "Finally, a fun story site for my son that isn't complicated. He can read all by himself. Thank you!"
+      </blockquote>
+      <div class="meta">— David L., Parent</div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section container" aria-labelledby="contact-heading">
+  <div class="card" style="padding:24px">
+    <h2 id="contact-heading">Contact & Support</h2>
+    <p>Have a question or a fun idea for a story? We'd love to hear from you!</p>
+
+    <form id="contact-form" style="max-width:720px;margin:18px auto 0;text-align:left" action="/.netlify/functions/contact" method="post" aria-label="Contact form">
+      <div class="form-row" style="display:flex;gap:12px">
+        <div style="flex:1">
+          <label for="name">Name</label>
+          <input id="name" name="name" required placeholder="Your name" aria-required="true">
+        </div>
+        <div style="flex:1">
+          <label for="email">Email</label>
+          <input id="email" name="email" required type="email" placeholder="you@example.com" aria-required="true">
+        </div>
+      </div>
+
+      <!-- Honeypot field to reduce spam -->
+      <div style="display:none">
+        <label for="website">Website</label>
+        <input id="website" name="website" tabindex="-1" autocomplete="off">
+      </div>
+
+      <div style="margin-top:12px">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Let us know what you think..." required></textarea>
+      </div>
+
+      <div style="margin-top:14px;display:flex;gap:12px;align-items:center">
+        <button class="btn" type="submit">Send Message</button>
+        <small style="opacity:0.8">We'll get back to you soon. We respect your privacy!</small>
+      </div>
+    </form>
+  </div>
+</section>
+
+<footer class="footer" role="contentinfo">
+  <div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
+    <div>© 2025 Story Sprouts. All rights reserved.</div>
+    <div style="display:flex;gap:12px;align-items:center">
+      <a href="privacy.html" style="opacity:0.9">Privacy</a>
+      <a href="terms.html" style="opacity:0.9">Terms</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Minimal JS: accessible mobile menu toggle and simple newsletter/contact form UX hooks.
+  (function(){
+    const btn = document.querySelector('[data-nav-toggle]');
+    const menu = document.querySelector('[data-nav-menu]');
+    if(btn && menu){
+      btn.addEventListener('click', ()=> {
+        const expanded = btn.getAttribute('aria-expanded') === 'true';
+        btn.setAttribute('aria-expanded', String(!expanded));
+        // This assumes your CSS will handle the visibility based on the 'display' property.
+        menu.style.display = expanded ? '' : 'block';
+      });
+    }
+    // Basic client-side form honeypot validation
+    const form = document.getElementById('contact-form');
+    if(form){
+      form.addEventListener('submit', (e)=>{
+        const hp = form.querySelector('[name="website"]');
+        if(hp && hp.value){
+          e.preventDefault();
+        }
+      });
+    }
+  })();
+</script>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
